@@ -1,0 +1,62 @@
+@import url(styles/fonts.css);
+h2{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3 {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.row-division{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.btn-team{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.btn-logo{
+    top: 10px;
+}
+.btn-text, .btn-text:visited{
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    outline: 0;
+    color: #e6e6e6;
+}
+
+/*===== team button styles =======*/
+#btn-ravens {
+    background-color: #4f3fb4;
+    .btn-logo{
+        scale: 70%;
+    }
+}
+#btn-bengals {
+    background-color: #fb4f14;
+    
+    .btn-logo{
+        scale: 25%;
+    };
+}
+#btn-steelers {
+    background-color: grey;
+}
