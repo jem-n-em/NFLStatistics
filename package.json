@@ -1,0 +1,26 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "simple webpage displaying nfl data retrieved from an API.  Utilizes vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jem-n-em/NFLStatistics.git"
+  },
+  "keywords": [
+    "Javascript",
+    "HTML",
+    "CSS",
+    "NFL",
+    "API"
+  ],
+  "author": "Jerami Soriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jem-n-em/NFLStatistics/issues"
+  },
+  "homepage": "https://github.com/jem-n-em/NFLStatistics#readme"
+}
